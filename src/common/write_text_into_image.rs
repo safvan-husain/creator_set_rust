@@ -1,6 +1,6 @@
 extern crate ab_glyph;
 use ab_glyph::{point, FontArc, GlyphId, PxScale};
-use image::{open, GenericImage, ImageBuffer, Rgba, RgbaImage};
+use image::{Rgba, RgbaImage};
 use imageproc::drawing::draw_text_mut;
 
 pub fn draw_text_on_image(canvas: &mut RgbaImage, text: &str, font_size: f32, color: Rgba<u8>) {

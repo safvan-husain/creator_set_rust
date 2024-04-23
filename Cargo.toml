@@ -7,6 +7,8 @@ edition = "2021"
 
 [dependencies]
 ab_glyph = "0.2.25"
+ffmpeg-next = "7.0.0"
 image = "0.25.1"
 imageproc = "0.24.0"
 rusttype = "0.9.3"
+video-rs = "0.7.3"
